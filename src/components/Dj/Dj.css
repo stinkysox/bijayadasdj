@@ -13,7 +13,6 @@
   width: 200px;
   cursor: pointer;
   user-select: none;
-  touch-action: none;
 }
 
 .dj-content {
