@@ -19,7 +19,7 @@ const Banner = () => {
   return (
     <div className="banner">
       <img
-        src="https://i.pinimg.com/736x/0f/68/94/0f6894e539589a50809e45833c8bb6c4.jpg" // Replace with actual image later
+        src="https://i.postimg.cc/vBvszHTz/Screenshot-2025-07-12-105204.png"
         alt="DJ Bijaya Das performing live"
         className="banner-image"
       />

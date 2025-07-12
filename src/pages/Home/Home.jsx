@@ -11,11 +11,13 @@ import Testimonials from "../../components/Testimonials/Testimonials";
 import ContactSection from "../../components/ContactSection/ContactSection";
 import Footer from "../../components/Footer/Footer";
 import ScrollButton from "../../components/ScrollButton/ScrollButton";
+import Dj from "../../components/Dj/Dj";
 const Home = () => {
   return (
     <section className="home-container">
       <Navbar />
       <Banner />
+      <Dj />
       <MarqueeImages />
       <StatsCounter />
       <OurServices />
