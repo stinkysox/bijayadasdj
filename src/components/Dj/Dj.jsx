@@ -33,9 +33,7 @@ const Dj = () => {
         <p className="dj-instruction">
           🎵 Press and hold the vinyl to play music
         </p>
-        <motion.img
-          src="https://i.postimg.cc/HsRfb73m/Adobe-Express-file-7.png"
-          alt="vinyl"
+        <motion.div
           className={`dj-vinyl ${isHolding ? "holding" : ""}`}
           animate={isHolding ? { rotate: [0, 360] } : { rotate: 0 }}
           transition={
